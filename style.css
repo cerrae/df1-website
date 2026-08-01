@@ -290,6 +290,14 @@ ul { list-style: none; }
   text-transform: uppercase;
 }
 
+.product-price {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--c-white);
+  margin-top: 2px;
+}
+
 .product-row {
   display: flex;
   align-items: flex-end;
