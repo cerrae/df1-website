@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DF1 — Quality. Standard. Culture.</title>
+<meta name="description" content="DF1 streetwear. Premium fabric, signature mark, built for everyday.">
+
+<!-- Preconnect for font performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Preload hero for LCP -->
+<link rel="preload" as="image" href="assets/hero-banner.webp" type="image/webp">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="site-header" id="siteHeader">
+  <nav class="navbar" aria-label="Primary">
+    <div class="nav-left">
+      <a href="#top" class="nav-logo" aria-label="DF1 home">DF1</a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navCenter" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-center" id="navCenter">
+      <a href="#products" class="nav-link">Shop</a>
+      <a href="#products" class="nav-link">Get A Piece</a>
+    </div>
+
+    <div class="nav-right">
+      <a href="#footer" class="nav-culture-btn">Streetwear Culture</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top" aria-label="DF1 hero banner">
+    <picture>
+      <source srcset="assets/hero-banner.webp" type="image/webp">
+      <img
+        src="assets/hero-banner.png"
+        alt="DF1"
+        class="hero-img"
+        fetchpriority="high"
+        width="2076" height="757">
+    </picture>
+  </section>
+
+  <!-- ============ PRODUCTS ============ -->
+  <section class="products fade-in" id="products" aria-label="Shop DF1">
+    <div class="products-grid">
+
+      <article class="product-card">
+        <div class="product-media">
+          <picture>
+            <source srcset="assets/hoodie-product.webp" type="image/webp">
+            <img src="assets/hoodie-product.png" alt="DF1 Hoodie" loading="lazy" width="1254" height="1254">
+          </picture>
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">DF1 Hoodie</h3>
+          <div class="product-row">
+            <p class="product-desc">Premium fabric &middot; Signature DF1 mark<br>Built for everyday. Made to stand out.</p>
+            <button type="button" class="btn-get">Get This</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-media">
+          <picture>
+            <source srcset="assets/tshirt-product.webp" type="image/webp">
+            <img src="assets/tshirt-product.png" alt="DF1 Tee" loading="lazy" width="1254" height="1254">
+          </picture>
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">DF1 Tee</h3>
+          <div class="product-row">
+            <p class="product-desc">Premium fabric &middot; Signature DF1 mark<br>Built for everyday. Made to stand out.</p>
+            <button type="button" class="btn-get">Get This</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-media">
+          <picture>
+            <source srcset="assets/bucket-hat.webp" type="image/webp">
+            <img src="assets/bucket-hat.png" alt="DF1 Bucket Hat" loading="lazy" width="1254" height="1254">
+          </picture>
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">DF1 Bucket Hat</h3>
+          <div class="product-row">
+            <p class="product-desc">Premium fabric &middot; Signature DF1 mark<br>Built for everyday. Made to stand out.</p>
+            <button type="button" class="btn-get">Get This</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ CASH APP ============ -->
+  <section class="cashapp fade-in" aria-label="Cash App">
+    <picture>
+      <source srcset="assets/cashapp-banner.webp" type="image/webp">
+      <img src="assets/cashapp-banner.png" alt="Cash App" class="cashapp-img" loading="lazy" width="1774" height="887">
+    </picture>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer fade-in" id="footer">
+  <div class="footer-bottom">
+    <div class="footer-social">
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="DF1 on Instagram" class="social-link">
+        <img src="assets/icons/instagram.svg" alt="" width="18" height="18">
+      </a>
+      <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="DF1 on TikTok" class="social-link">
+        <img src="assets/icons/tiktok.svg" alt="" width="18" height="18">
+      </a>
+    </div>
+
+    <p class="footer-copy">DF1 © 2025</p>
+    <span class="footer-divider" aria-hidden="true"></span>
+    <p class="footer-rights">All rights reserved</p>
+    <span class="footer-divider" aria-hidden="true"></span>
+    <p class="footer-tagline">Quality. Standard. Culture.</p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
