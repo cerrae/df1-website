@@ -392,7 +392,19 @@ ul { list-style: none; }
   color: var(--c-white);
   transform: translateY(-2px);
 }
-.social-link img { width: 18px; height: 18px; }
+
+.social-link img {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) invert(1);
+  opacity: 0.72;
+  transition: opacity var(--dur-fast) var(--ease);
+}
+
+.social-link:hover img,
+.social-link:focus-visible img {
+  opacity: 1;
+}
 
 .footer-copy,
 .footer-rights,
